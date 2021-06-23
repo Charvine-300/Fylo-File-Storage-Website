@@ -1,0 +1,128 @@
+:root {
+    --o-backs-background-color: hsl(228, 56%, 26%);
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+
+/*==========  ID Rules  ==========*/
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0px auto;
+    flex-direction: column;
+}
+
+#container {
+    width: 375px;
+    height: 667px;
+    margin: 0px auto;
+    margin-top: 60px;
+    background-image: url(images/bg-mobile.png);
+}
+
+#track {
+    width: 16px;
+    height: 17px;
+    border-radius: 20px;
+    margin: 1px 1px 1px 1px;
+    background: linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 60%);
+}
+
+#ball {
+    width: 16px;
+    height: 16px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+
+/*==========  Class Rules  ==========*/
+.logo {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.photos {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.bar {
+    width: 270px;
+    height: 20px;
+    margin-left: 22px;
+    border-radius: 25px;
+    padding: 2px 2px 1px 2px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.measure {
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 20px;
+    color: hsl(0, 33%, 97%);
+}
+
+.back {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.tracker {
+    width: 325px;
+    height: 210px;
+    border-radius: 10px;
+    margin: 110px 0px 20px 25px;
+    border-top-right-radius: 100px;
+    background-color: var(--o-backs-background-color);
+}
+
+.space {
+    width: 325px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: var(--o-backs-background-color);
+}
+
+.remainder {
+    width: 200px;
+    height: 70px;
+    margin-top: 470px;
+    margin-left: 90px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+/*==========  Element Rules  =========*/
+h1 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding-top: 17px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: monospace;
+    color: hsl(0, 2%, 76%);
+}
+
+
+
+/*==========  Animation and Effects  ==========*/
+.back:hover {
+    background: linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 60%);
+}

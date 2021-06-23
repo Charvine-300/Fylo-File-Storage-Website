@@ -1,0 +1,125 @@
+:root {
+    --o-backs-background-color: hsl(228, 56%, 26%);
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+
+/*==========  ID Rules  ==========*/
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-direction: row;
+    margin: 280px 0px 0px 240px;
+}
+
+#container {
+    width: 1440px;
+    height: 800px;
+    margin: 0px auto;
+    background-color: hsl(229, 57%, 11%);
+}
+
+#ball {
+    width: 16px;
+    height: 16px;
+    margin-left: 0px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+#track {
+    width: 16px;
+    height: 17px;
+    border-radius: 20px;
+    margin: 1px 1px 1px 1px;
+    background: linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 60%);
+}
+
+
+/*==========  Class Rules  ==========*/
+.logo {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.photos {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.measure {
+    padding: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 20px;
+    color: hsl(0, 33%, 97%);
+}
+
+.bar {
+    width: 500px;
+    height: 20px;
+    margin-left: 22px;
+    border-radius: 25px;
+    padding: 2px 2px 1px 2px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.back {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.remainder {
+    width: 200px;
+    height: 70px;
+    margin-left: 700px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.space {
+    width: 550px;
+    height: 170px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: var(--o-backs-background-color);
+}
+
+.tracker {
+    width: 350px;
+    height: 210px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    background-color: var(--o-backs-background-color);
+}
+
+
+/*==========  Element Rules  =========*/
+h1 {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 35px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    font-family: monospace;
+    color: hsl(0, 2%, 76%);
+}
+
+
+/*==========  Animation and Effects  ==========*/
+.back:hover {
+    background: linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 60%);
+}

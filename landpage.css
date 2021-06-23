@@ -1,0 +1,296 @@
+:root {
+    --pfont-font-family: Verdana;
+    --fonttype-font-family: helvetica;
+}
+
+h1, h2, p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    background-color: #232c3b;
+}
+
+#remainder {
+    height: 2800px;
+    font-size: 0px;
+    background-color: #181f2b;
+}
+
+#flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#brandy {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#ending {
+    width: 1580px;
+    height: 800px;
+    margin-top: 400px;
+    background-color: #232c3b;
+}
+
+/*===========  CLass Rules  ===========*/
+.swirl {
+    width: 850px;
+    margin-top: 60px;
+    position: absolute; 
+    padding: 30px 0px 20px 365px; 
+}
+
+.swirly {
+    width: 650px;
+    margin-top: 20px;
+    padding: 30px 0px 20px 80px;
+}
+
+.button {
+    width: 450px;
+    height: 100px;
+    margin: 0px auto;
+    border-radius: 50px;
+    margin-bottom: 200px;
+    background-color: #04cece;
+}
+
+.images {
+    width: 120px;
+    height: 110px;
+    display: block;
+    margin: 0px auto;
+}
+
+.preview {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.connect {
+    text-align: left;
+    padding-top: 20px; 
+}
+
+.access {
+    color: #04cece; 
+    padding-bottom: 10px; 
+    border-bottom: 3px solid #04cece;
+}
+
+.quotes {
+    width: 60px;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.left {
+    float: left;
+    width: 600px; 
+    height: 350px;
+    padding: 20px;
+    margin: 0px 100px 40px 50px; 
+}
+
+.right {
+    float: right;
+    width: 600px; 
+    height: 350px;
+    padding: 20px;
+    margin: 0px 50px 40px 100px;
+}
+
+.arrow {
+    width: 30px; 
+    height: 30px; 
+    margin-top: 6px; 
+    position: absolute; 
+    padding-bottom: 8px;
+    border-bottom: 3px solid #04cece;
+}
+
+.comment {
+    width: 500px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #232c3b;
+}
+
+.commenters {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.names {
+    padding-top: 5px;
+    font-size: 20px;
+    color: #f5f5f5; 
+    text-align: left;
+    line-height: 30px;
+    margin-left: 95px;
+}
+
+.queue {
+    padding: 0px; 
+    font-size: 20px;
+    text-align: justify; 
+    margin-bottom: 40px;
+}
+
+
+.section {
+    width: 1000px;
+    height: 450px;
+    margin-left: 280px;
+    margin-top: 500px;
+    position: absolute;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: #1c2433;
+    box-shadow: 5px 5px 5px 2px #000000;
+}
+
+
+.email {
+    padding: 20px;
+    text-align: left;
+    color: #bbb8b8;
+    padding-left: 50px; 
+    font-weight: lighter; 
+}
+
+.button {
+    width: 450px;
+    height: 100px;
+    margin: 0px auto;
+    border-radius: 50px;
+    margin-bottom: 200px;
+    background-color: #04cece;
+}
+
+.enders {
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 35px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+
+/*==========  ELements Rules  ==========*/
+header {
+    padding: 60px 0px 50px 40px;
+}
+
+a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+ul {
+    float: right;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    font-size: 23px;
+    color: #f5f5f5;
+    text-align: center;
+    padding-right: 40px;
+    font-weight: lighter;
+    transition: all ease-in-out 0.5s;
+    font-family: var(--pfont-font-family);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #f5f5f5;
+    line-height: 80px;
+    margin-top: 840px;
+    position: absolute; 
+    text-align: center;
+    padding-left: 370px;
+    padding-right: 330px;
+    font-family: var(--fonttype-font-family);
+}
+
+p {
+    font-size: 23px;
+    color: #f5f5f5;
+    line-height: 40px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 0px 350px 30px 350px;
+    font-family: var(--pfont-font-family);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #f5f5f5; 
+    padding-top: 20px;
+    text-align: center;
+    font-family: var(--fonttype-font-family);
+}
+
+
+.button p {
+    font-size: 27px;
+    line-height: 0px;
+    font-weight: 700;
+    text-align: center; 
+    padding: 50px 0px 0px 0px;
+}
+
+
+
+/*==========  Animation and Effects  ==========*/
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

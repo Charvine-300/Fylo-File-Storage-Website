@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head> 
+        <script src="sigin.js"></script>
+        <script src="fyloOne.js"></script>
+        <title> Fylo: Storage Tracker </title>
+        <link rel="icon" href="images/icon-folder.svg"/>
+        <link rel="stylesheet" type="text/css" href="fyloOne.css"/>
+        <link rel="stylesheet" media="(max-width: 900px)" href="fyloOne2.css"/>
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div id="flex">
+
+                <div class="remainder">
+
+                    <h1 style=" padding-top: 0px; font-size: 20px; color: hsl(0, 1%, 30%);"> 
+                        <span id="remains" style="font-size: 40px; font-weight: bolder; color: hsl(0, 0%, 0%);">015</span>GB Left
+                    </h1>
+
+                </div>
+            
+                <div class="tracker">
+
+                    <img src="images/logo.svg" class="logo" alt="fyloLogo"/>
+
+                    <div class="photos">
+                        
+                        <div class="back" id="front">
+                            <img src="images/icon-document.svg" style="margin: 13px 0px 0px 15px;"/>
+                        </div>
+
+                        <div class="back" id="middle">
+                            <img src="images/icon-folder.svg" style="margin: 15px 0px 0px 13px;"/>
+                        </div>
+
+                        <div class="back" id="back">
+                            <img src="images/icon-upload.svg" style="margin: 17px 0px 0px 13px;"/>
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+                <div class="space">
+                    <h1> 
+                        You've used <span id="used" style="font-weight: 700; color: hsl(0, 33%, 97%);">085GB</span> of your storage 
+                    </h1>
+
+                    <div class="bar">
+                        <div id="track">
+                            <div id="ball"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 class="measure">0GB
+                            <span style="float: right; margin-right: 20px;">100GB</span>
+                        </h1> 
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
